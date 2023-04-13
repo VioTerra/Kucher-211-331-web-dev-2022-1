@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Форма для аутентификации</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<main>
+		<div class="section1">
+			<div>
+				<nav>
+					<ul>
+						<li class="li"><a href="index.html">Форма для аутентификации</a></li>
+						<li class="li"><a href="index1.html">Форма обратной связи</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<div class="section2 flex-center">
+			<fieldset class="fieldset1 input-field">
+				<form method="post" action="https://httpbin.org/post" enctype="multipart/form-data">
+					<div>
+						<label for="login">Введите логин</label>
+						<br>
+						<input class="input1" type="text" id="login" name="login" placeholder="username" required>
+					</div>
+					<div>
+						<label for="password">Введите пароль</label>
+						<br>
+						<input class="input1" type="text" id="password" name="password" placeholder="password" required>
+					</div>
+					<div>
+						<input type="checkbox" name="remember_me" id="remember_me" value="true">
+						<label for="remember_me">Запомнить меня</label>
+					</div>
+					<button class="btn" type="submit">Войти</button>
+				</form>
+			</fieldset>
+		</div>
+	</main>
+</body>
+
+</html>

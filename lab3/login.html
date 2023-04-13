@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Вход | Чтиво</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="print.css" media="print">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+	<link rel="icon" href="images/icon.ico" type="image/x-icon">
+</head>
+
+
+<body>
+	<header id="scroll-to-top-btn" class="header text-shadow">
+		<div class="container d-flex">
+			<nav class="main-menu">
+				<ul>
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="catalogue.html">Каталог</a></li>
+					<li><a href="stores.html">Магазины</a></li>
+					<li><a href="contacts.html">Контакты</a></li>
+				</ul>
+			</nav>
+			<div class="profile">
+				<a href="login.html">Вход</a>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="section2 flex-center text-shadow">
+			<fieldset class="fieldset1 input-field">
+				<form method="post" action="https://httpbin.org/post" enctype="multipart/form-data">
+					<div>
+						<label for="login">Введите логин</label>
+						<br>
+						<input class="input1" type="text" id="login" name="login" placeholder="username" required>
+					</div>
+					<div>
+						<label for="password">Введите пароль</label>
+						<br>
+						<input class="input1" type="text" id="password" name="password" placeholder="password" required>
+					</div>
+					<div>
+						<input type="checkbox" name="remember_me" id="remember_me" value="true">
+						<label for="remember_me">Запомнить меня</label>
+					</div>
+					<button class="btn1" type="submit">Войти</button>
+				</form>
+			</fieldset>
+		</div>
+	</main>
+	<footer class="footer text-shadow">
+		<div class="container">
+			&copy; Кучер И.О.
+		</div>
+	</footer>
+</body>
+
+</html>

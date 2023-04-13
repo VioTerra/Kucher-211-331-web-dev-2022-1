@@ -1,0 +1,119 @@
+body {
+	margin: 0;
+	font-family: 'Oswald', sans-serif;
+	background-image: url(images/background.jpg);
+	background-position: center;
+    background-repeat: no-repeat;
+	background-color: white;
+	background-size: cover;
+}
+
+/* main {
+	min-height: 100vh;
+	width: 100%;
+} */
+
+.section1 {
+	min-height: 5vh;
+	width: 13.5rem;
+	border-radius: 5px;
+	border: 2px solid black;
+	background-color: white;
+	margin: 1rem;
+}
+
+.li {
+	font-size: 14px;
+	list-style: none;
+}
+
+.section2 {
+	min-height: 77vh;
+	width: 100%;
+}
+
+
+.fieldset1 {
+	font-size: 20px;
+	width: 11rem;
+	height: 11.3rem;
+	background-color: white;
+	border-radius: 5px;
+	border: 2px solid white;
+}
+
+.fieldset2 {
+	font-size: 18px;
+	width: 17rem;
+	height: 34.3rem;
+	background-color: white;
+	border-radius: 5px;
+	border: 2px solid black;
+}
+
+h2 {
+	font-size: 18px;
+	font-weight: 400;
+	margin-top: 3px;
+	margin-bottom: 0;
+}
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.input-field input {
+	border-radius: 5px;
+}
+
+.input-field2 {
+	border-radius: 5px;
+}
+
+.input1 {
+	width: 11rem;
+}
+
+.btn {
+	background-color: burlywood;
+	width: 100%;
+	border-radius: 5px;
+}
+
+/* legend {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+h1 {
+	font-size: 20px;
+	font-weight: 400;
+	margin: 0;
+} */
+
+h1 {
+	font-size: 24px;
+	text-align: center;
+	margin: 0;
+	margin-bottom: 5px;
+}
+
+.label label{
+	font-size: 15px;
+}
+
+/* .input2 {
+	width: 15rem;
+} */
+
+.border-radius-black {
+	border-radius: 5px;
+	border: 2px solid black;
+}
+
+textarea {
+	resize: none;
+}

@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 20px 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+}
+
+.main-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.main-menu li:last-child {
+    margin-right: 0px;
+}
+
+.main-menu a {
+    text-decoration: none;
+    color: rgb(240, 255, 160);
+}
+
+.container {
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+p {
+    text-align: justify;
+}
+
+.footer {
+    background-color: rgb(203, 136, 35);
+    padding: 20px 0;
+    color: white;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+}
+
+.avatar {
+    text-align: center;
+    height: 250px;
+    background-image: url(images/background1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.avatar img {
+    height: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.w-50 {
+    width: 500px;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contact-me-btn {
+    color: white;
+    border-color: white;
+}
+
+table {
+    border-collapse: separate;
+}
+
+th {
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+}
+
+main {
+    margin-bottom: 10px;
+}
