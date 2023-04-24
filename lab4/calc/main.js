@@ -97,7 +97,6 @@ function compile(str) {
 // Вам нужно реализовать эту функцию
 // (https://ru.wikipedia.org/wiki/Обратная_польская_запись#Вычисления_на_стеке).
 
-//наработки по eval
 function evaluate(str) {
     const operators = {
         '+': (x, y) => x + y,
@@ -134,7 +133,6 @@ function evaluate(str) {
 // событий (https://learn.javascript.ru/event-delegation), чтобы 
 // не назначать обработчик для каждой кнопки в отдельности.
 
-//наработки по clickhandler
 function clickHandler(event) {
     scr.value = scr.value + event.target.textContent
     if (event.target.textContent == '=') {
@@ -146,7 +144,6 @@ function clickHandler(event) {
 }
 
 // Назначьте нужные обработчики событий.
-//наработки
 window.onload = function () {
     buttons.forEach(target => target.addEventListener('click', clickHandler))
 }
