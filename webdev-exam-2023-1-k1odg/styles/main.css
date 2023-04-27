@@ -1,0 +1,261 @@
+/* Цветовая схема */
+color {
+	/* Салатный */
+	color: #7fff00;
+
+	/* Серый */
+	color: lightgrey;
+
+	/* Желто-коричневый */
+	color: #b79400;
+    
+    /* Палевый */
+    color: #f0dc82;
+
+    /* Красный */
+    color: red;
+
+	/* Лаймовый */
+	color: navy;
+
+	/* Коричневый */
+	color: #964b00;
+    color: brown
+}
+
+/* Bootstrap Box-sizing */
+.selector-for-some-widget { 
+	box-sizing: content-box;
+}
+
+/* Цвет потолка сайта */
+.header-color {
+	background-color: #f0dc82;
+	border-top: solid 5px lightgrey;
+	border-bottom: solid 2px lightgrey;
+}
+
+/* Цвет подвала сайта */
+.footer-color {
+	background-color: #f0dc82;
+	border-top: solid 2px lightgrey;
+	border-bottom: solid 5px lightgrey;
+}
+
+/* Блок с изображением и описанием компании. */
+.info-section {
+	background-color: #f0dc82;
+	border-top: solid 2px lightgrey;
+	border-bottom: solid 2px lightgrey;
+}
+
+/* Блок с информацией о достоинствах вашей компании (структура этого блока
+выбирается по усмотрению студента, однако обязательным условием является
+использование Bootstrap Grid System). */
+.advantage-section {
+	background-color: navy;
+	border-top: solid 2px lightgrey;
+	border-bottom: solid 2px lightgrey;
+	color: whitesmoke;
+}
+
+/* Размер иконок бутстрап в секции */
+.bi-font-size {
+	font-size: 3rem;
+	color: red;
+}
+
+/* Блок с данными о пешеходных маршрутах города Москвы, предоставляющий
+возможность выбрать один из маршрутов для последующего заказа услуг гида. */
+.routes-section {
+	background-color: navy;
+	border-top: solid 2px lightgrey;
+	border-bottom: solid 2px lightgrey;
+}
+
+/* Cекция гидов на выбранном маршруте. */
+.search-gid-to-rout {
+	background-color: navy;
+	border-top: solid 2px lightgrey;
+	border-bottom: solid 2px lightgrey;
+}
+
+/* ======================================== */
+
+input[type=date] {
+    font-size: 15px;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgrey;
+}
+
+.alert-container {
+    width: 100%;
+    padding: 0 15px;
+    position: fixed;
+    z-index: 10000;
+    top: 20px;
+}
+
+.logo {
+    height: 120px;
+    width: 120px;
+}
+
+.icon {
+    height: 65px;
+    width: 65px;
+}
+
+.header *,
+.hero,
+.list-of-walking-routes,
+.list-of-walking-routes .pagination *,
+.advantages h2,
+.list-of-guides {
+    color: white;
+}
+
+/* секция доступных пешеходных маршрутов */
+.list-of-walking-routes .container {
+    background-color: brown;
+    padding: 20px 20px;
+	border: 2px solid red;
+}
+
+.search-field {
+    width: 100%;
+}
+
+/* оформление таблицы доступных пешеходных маршрутов */
+.table-walking-routes .row {
+    padding: 5px;
+}
+
+.table-walking-routes .row .choose-btn {
+    height: 100%;
+    padding: 5px;
+    border-collapse: collapse;
+    border: 2px solid gray;
+}
+
+.table-walking-routes .row>*>* {
+    height: 100%;
+    max-height: 250px;
+    overflow-x: hidden;
+    overflow-y: visible;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 40px;
+    border-collapse: collapse;
+    border: 2px solid gray;
+}
+
+.table-walking-routes .row .choose {
+    overflow: visible;
+}
+
+.list-of-walking-routes .search-field {
+    padding: 5px 15px;
+}
+
+.pagination-bar .pagination {
+    gap: 5px;
+}
+
+.pagination-bar .pagination a {
+    height: 100%;
+    background-color: navy;
+    border: 3px solid gray;
+    
+}
+
+.pagination-bar .pagination a.active {
+    background-color: greenyellow;
+}
+
+.pagination .page-link {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.pagination .active {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+/* секция гидов */
+.list-of-guides .container {
+    background-color: brown;
+    padding: 20px 20px;
+	border: 2px solid red;
+}
+
+.list-of-guides .experience-from-to>* {
+    padding: 5px 15px;
+}
+
+/* оформление таблицы, содержащую информацию о гидах */
+.table-guides .row>* {
+    padding: 5px;
+}
+
+.table-guides .row .choose-btn {
+    height: 100%;
+    padding: 5px;
+    border-collapse: collapse;
+    border: 2px solid gray;
+}
+
+.table-guides .row>*>* {
+    height: 100%;
+    width: 100%;
+    max-height: 250px;
+    overflow-x: hidden;
+    overflow-y: visible;
+    padding: 5px 20px;
+    border-collapse: collapse;
+    border: 2px solid gray;
+}
+
+.table-guides .row .choose {
+    overflow: visible;
+}
+
+/* общие стили */
+.white-square-with-rounded-edges {
+    background-color: brown;
+    padding: 5px;
+    margin: 5px;
+}
+
+a.button {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background-color: red;
+    border: 2px solid gray;
+}
+
+button.button {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background-color: red;
+    border: 2px solid gray;
+}
+
+/* стили для модального окна */
+.modal-content {
+    background-color: #f0dc82;
+}
+
+.modal-body {
+    min-height: 300px;
+}
+
+#route-name {
+    min-height: 100px;
+}
